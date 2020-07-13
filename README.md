@@ -11,5 +11,8 @@ Location based android app for tourists.
 <img src="https://github.com/dgdheeraj/Travel-App/blob/master/Screenshots/Saved.jpg" width="270" height="225">  
 
 ## Getting Started
-1. Generate Google Maps API key using the following link\n
+1. Generate Google Maps API key using the following link <br/>
 https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+2. Add the API key to api_key variable in MapsActivity.java(line 190),PlaceInfo.java(line 66) and google_maps_api.xml(line 24)<br/>
+3. Build and run on an emulator or on physical device<br/>
