@@ -1,5 +1,5 @@
 # Travel-App
-Location based android app for tourists. 
+Location based android app for tourists using Google Maps API and Google Places API. 
 
 ## App-Features
 1. Tourist Attractions at a radius of 5km around the user's location are displayed and also marked on the map. 
