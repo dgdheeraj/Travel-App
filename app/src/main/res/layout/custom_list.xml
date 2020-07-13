@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="10dp"
+        android:text="Place Name"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="23dp"
+        android:layout_toEndOf="@+id/text"
+        android:layout_toRightOf="@+id/text"
+        android:background="#F6C102"
+        android:text="Save" />
+
+
+</RelativeLayout>
+    <!--    AIzaSyB-Hbe9VTCNH9tQ4uuG_liLz1fgoxWeUHw-->
+    <!--    CmRaAAAA5sexRsOzOnMlKmWI0b-pQ0zaRRB4YZavEYzbS1V_HNVCr_WbRbQb3uyXzyuGdo5P&#45;&#45;IvfheKO-SC_ICtOMc-BNfeK_dMwZzOB7utbebpFyz-54HTbaLqVwDdWG1cW95zEhAFd_R-ck7GRZgdvEJnTKTyGhSRUrmS9RlY7X2qqaufq71ZcYUCnA-->
+    <!--    https://maps.googleapis.com/maps/api/place/photo?photoreference=CmRaAAAA5sexRsOzOnMlKmWI0b-pQ0zaRRB4YZavEYzbS1V_HNVCr_WbRbQb3uyXzyuGdo5P&#45;&#45;IvfheKO-SC_ICtOMc-BNfeK_dMwZzOB7utbebpFyz-54HTbaLqVwDdWG1cW95zEhAFd_R-ck7GRZgdvEJnTKTyGhSRUrmS9RlY7X2qqaufq71ZcYUCnA&sensor=false&maxheight=150&maxwidth=150&key=AIzaSyB-Hbe9VTCNH9tQ4uuG_liLz1fgoxWeUHw-->

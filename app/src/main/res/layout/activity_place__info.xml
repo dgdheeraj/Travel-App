@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="next"
+        android:text="Map" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:textSize="24sp"></TextView>
+
+    <TextView
+        android:layout_width="86dp"
+        android:layout_height="46dp"
+        android:text="ADDRESS"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="match_parent"
+        android:layout_height="67dp" />
+
+    <TextView
+        android:layout_width="86dp"
+        android:layout_height="46dp"
+        android:text="TIMINGS"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/timing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
